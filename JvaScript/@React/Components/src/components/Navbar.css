@@ -1,0 +1,30 @@
+.Navbar {
+    background-color: rgb(0, 123, 255);
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    position: sticky;
+    top: 0;
+}
+
+ul {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    align-items: center;
+
+}
+
+li {
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.20s ease-in-out;
+
+
+}
+
+li:hover {
+    transform: scale(1.5);
+}

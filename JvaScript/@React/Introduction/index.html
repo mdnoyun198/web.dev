@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
+</head>
+<body style="display: flex; justify-content: center; gap: 10px;">
+    <div class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+
+    <script>
+
+
+
+        setTimeout(() => {
+            let a = document.querySelector(".box1")
+            a.innerHTML = "rokey"
+        }, 2000);
+
+
+
+        setTimeout(() => {
+            let a = document.querySelector(".box2")
+            a.innerHTML = "is a"
+        }, 3000);
+
+
+
+
+        setTimeout(() => {
+            let a = document.querySelector(".box3")
+            a.innerHTML = "hacker"
+        }, 4000);
+
+
+
+    </script>
+</body>
+</html>
