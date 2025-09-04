@@ -1,0 +1,21 @@
+
+
+.Navbar{
+  padding-top: 1%;
+  padding-left: 2%;
+}
+
+.had-text{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+  font-size: 2rem;
+}
+li{
+  list-style: none;
+}
+.red{
+  background-color: red;
+  color: wheat;
+}
