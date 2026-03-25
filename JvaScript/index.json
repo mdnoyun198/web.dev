@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Rokey",
+    "age": 19,
+    "picture": "index.png"
+  },
+  {
+    "name": "Alice",
+    "age": 22,
+    "picture": "index.png"
+  },
+  {
+    "name": "Boblu",
+    "age": 25,
+    "picture": "index.png"
+  },
+  {
+    "name": "Charlie",
+    "age": 30,
+    "picture": "index.png"
+  },
+  {
+    "name": "David",
+    "age": 28,
+    "picture": "index.png"
+  },
+  {
+    "name": "Eva",
+    "age": 21,
+    "picture": "index.png"
+  },
+  {
+    "name": "Frank",
+    "age": 26,
+    "picture": "index.png"
+  },
+  {
+    "name": "Grace",
+    "age": 24,
+    "picture": "index.png"
+  },
+  {
+    "name": "Hannah",
+    "age": 27,
+    "picture": "index.png"
+  },
+  {
+    "name": "Ian",
+    "age": 23,
+    "picture": "index.png"
+  }
+]
