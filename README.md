@@ -7,51 +7,37 @@ Here I learn and practice modern web development technologies.
 
 ## 🧑‍💻 Technologies I’m Learning
 
-<table>
+<table width="100%">
   <tr>
-    <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="60px"/><br>
-      HTML
+    <td align="center" width="25%">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="60px"/><br>HTML
     </td>
-    <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="60px"/><br>
-      CSS
+    <td align="center" width="25%">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="60px"/><br>CSS
     </td>
-    <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50px"/><br>
-      JavaScript
+    <td align="center" width="25%">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50px"/><br>JavaScript
+    </td>
+    <td align="center" width="25%">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="60px"/><br>React
     </td>
   </tr>
 
   <tr>
-    <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="60px"/><br>
-      React
+    <td align="center" width="25%">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="60px"/><br>Node.js
     </td>
-    <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="60px"/><br>
-      Node.js
+    <td align="center" width="25%">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="60px"/><br>MongoDB
     </td>
-    <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="60px"/><br>
-      MongoDB
+    <td align="center" width="25%">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="60px"/><br>Next.js
     </td>
-  </tr>
-
-  <tr>
-    <td align="center">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="60px"/><br>
-      Next.js
-    </td>
-    <td align="center">
-      ⚡ More Coming...
-    </td>
-    <td align="center">
-      🚀 Learning Everyday
+    <td align="center" width="25%">
+      ⚡ Coming Soon
     </td>
   </tr>
 </table>
-
 ---
 
 ## 📚 What I Do Here
