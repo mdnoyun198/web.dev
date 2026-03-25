@@ -7,7 +7,7 @@ Here I learn and practice modern web development technologies.
 
 ## 🧑‍💻 Technologies I’m Learning
 
-<table align="center" width="100%">
+<table  width="100%">
   <tr>
     <td align="center" width="25%">
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="60px"/><br>HTML
