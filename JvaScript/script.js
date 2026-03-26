@@ -971,3 +971,178 @@ async function loadProfiles() {
 }
 
 loadProfiles();
+
+
+
+// callback example
+
+/*
+function greet(name, callback) {
+    console.log("Hello " + name);
+    callback(); // পরে এই function টা চালানো হচ্ছে
+}
+
+function sayBye() {
+    console.log("Bye!");
+}
+
+greet("Rokey", sayBye);
+*/
+
+
+
+/*
+
+*/
+
+
+
+// callback hell example
+
+/*
+setTimeout(() => {
+    console.log("Step 1");
+
+    setTimeout(() => {
+        console.log("Step 2");
+
+        setTimeout(() => {
+            console.log("Step 3");
+        }, 1000);
+
+    }, 1000);
+
+}, 1000);
+*/
+
+
+
+
+
+
+
+// Promise example
+
+
+/*
+const myPromise = new Promise((resolve, reject) => {
+    let success = true;
+
+    if (success) {
+        resolve("Done!");
+    } else {
+        reject("Error!");
+    }
+});
+
+
+myPromise
+    .then((result) => {
+        console.log(result);
+        return "profile data"; // 👈 return দিতে হবে
+    })
+    .then((result) => {
+        console.log(result);
+        return "post data";
+    })
+    .then((result) => {
+        console.log(result);
+    })
+    .catch((error) => {
+        console.log(error);
+    });
+*/
+
+
+
+
+
+
+// Promise example all any race   
+
+/*
+const p1 = Promise.resolve("A");
+const p2 = Promise.resolve("B");
+const p3 = Promise.resolve("C");
+
+
+Promise.all([p1, p2, p3]).then((res) => {           //  all → সব data লাগবে (profile + post + comment)
+    console.log("ALL:", res);
+});
+
+
+Promise.any([p1, p2, p3]).then((res) => {            // any → যেকোনো server কাজ করলেই হবে
+    console.log("ANY:", res);
+});
+
+
+Promise.race([p1, p2, p3]).then((res) => {           // race → fastest server যেটা দিবে সেটাই নিবি
+    console.log("RACE:", res);
+});
+
+*/
+
+
+
+
+
+
+
+// fetch api in javascript
+
+/*
+async function getData() {
+
+let x = await fetch('index.json')
+
+let data = await x.json()
+
+console.log(data) 
+
+}
+
+getData()
+
+
+// Example POST method implementation:
+
+async function postData(url = "", data = {}) {
+
+}
+
+// Default options are marked with *
+
+const response = await fetch(url, {
+
+method: "POST", // *GET, POST, PUT, DELETE, etc.
+
+mode: "cors", // no-cors, *cors, same-origin
+
+cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
+
+credentials: "same-origin", // include, *same-origin, omit
+
+headers: {
+
+"Content-Type": "application/json",
+
+// 'Content-Type': 'application/x-www-form-urlencoded',
+
+},
+
+redirect: "follow", // manual, *follow, error
+
+referrerPolicy: "no-referrer", // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-orig
+
+body: JSON.stringify(data), // body data type must match "Content-Type" header
+
+});
+
+return response.json(); // parses JSON response into native JavaScript objects
+
+postData("https://example.com/answer", { answer: 42}).then((data) => {
+
+console.log(data); // JSON data parsed by `data.json()` call
+
+});
+*/
