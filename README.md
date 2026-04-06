@@ -59,7 +59,7 @@ To become a **Full Stack Web Developer** 💻🔥
 
 This repository is only for learning and practice.  
 Mistakes are part of the journey 😄
-
+I know the concepts, but I can’t build
 ---
 
 ## ⭐ Support
