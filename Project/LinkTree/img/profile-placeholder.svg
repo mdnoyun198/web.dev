@@ -1,0 +1,8 @@
+<svg width="320" height="320" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="320" rx="160" fill="#162033"/>
+  <circle cx="160" cy="128" r="58" fill="#38BDF8" fill-opacity="0.22"/>
+  <path d="M90 254C90 211.026 124.922 176 168 176H152C195.078 176 230 211.026 230 254V260H90V254Z" fill="#38BDF8" fill-opacity="0.22"/>
+  <circle cx="160" cy="118" r="50" fill="#38BDF8"/>
+  <path d="M84 252C84 208.922 118.922 174 162 174H158C201.078 174 236 208.922 236 252V260H84V252Z" fill="#E2F3FF"/>
+  <text x="160" y="300" text-anchor="middle" fill="#98A7BF" font-family="Arial, sans-serif" font-size="24">Link Tree</text>
+</svg>
