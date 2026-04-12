@@ -26,16 +26,16 @@
 
 ### 💻 Desktop
 
-<p align="left">
-  <img src="img/@Screenshot1.png" width="100%" />
-</p>
-
-### 📱 Mobile
-
-<p align="left">
-  <img src="img/@Screenshot2.png" width="300" />
-</p>
----
+<table>
+  <tr>
+    <td width="80%">
+      <img src="img/@Screenshot1.png" width="100%" />
+    </td>
+    <td width="20%">
+      <img src="img/@Screenshot2.png" width="100%" />
+    </td>
+  </tr>
+</table>
 
 ## 📁 Project Structure
 
