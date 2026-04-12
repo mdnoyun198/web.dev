@@ -28,10 +28,10 @@
 
 <table>
   <tr>
-    <td width="80%">
+    <td width="70%">
       <img src="img/@Screenshot1.png" width="100%" />
     </td>
-    <td width="20%">
+    <td width="30%">
       <img src="img/@Screenshot2.png" width="100%" />
     </td>
   </tr>
