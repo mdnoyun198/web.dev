@@ -30,15 +30,12 @@ LinkTree/
 
 ## 📸 Screenshots
 
-### 🔹 Preview 1
+### 🔹 Preview 
 
-![Screenshot 1](img/@Screenshot1.png)
-
-### 🔹 Preview 2
-
-![Screenshot 2](img/@Screenshot2.png)
-
----
+<p align="center">
+  <img src="img/@Screenshot1.png" width="250" />
+  <img src="img/@Screenshot2.png" width="250" />
+</p>
 
 ## ➕ How to Add a New Link
 
