@@ -24,15 +24,17 @@
 
 ## 📸 Preview
 
-<p>
-* Desktop
+### 💻 Desktop
+
+<p align="left">
   <img src="img/@Screenshot1.png" width="100%" />
-  <br>
-  <br>
-* Mobile Phone
-  <img src="img/@Screenshot2.png" width="360px" /> 
 </p>
 
+### 📱 Mobile
+
+<p align="left">
+  <img src="img/@Screenshot2.png" width="300" />
+</p>
 ---
 
 ## 📁 Project Structure
