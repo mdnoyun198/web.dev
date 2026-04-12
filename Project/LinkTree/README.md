@@ -25,9 +25,9 @@
 ## 📸 Preview
 
 <p align="center">
-  <img src="img/@Screenshot1.png" width="90%" />
+  <img src="img/@Screenshot1.png" width="100%" />
 
-  <img src="img/@Screenshot2.png" width="10%" />
+  <img src="img/@Screenshot2.png" width="100%" />
 </p>
 
 ---
