@@ -1,0 +1,32 @@
+[
+  {
+    "Name": "Facebook",
+    "description": "Follow updates and posts",
+    "URL": "https://facebook.com/mdnoyun198",
+    "Icon": "img/facebook.svg"
+  },
+  {
+    "Name": "YouTube",
+    "description": "Watch videos and uploads",
+    "URL": "https://youtube.com/@mdnoyun198",
+    "Icon": "img/youtube.svg"
+  },
+  {
+    "Name": "TikTok",
+    "description": "Short videos and trends",
+    "URL": "https://www.tiktok.com/@mdnoyun198",
+    "Icon": "img/tiktok.svg"
+  },
+  {
+    "Name": "GitHub",
+    "description": "Projects and code work",
+    "URL": "https://github.com/mdnoyun198",
+    "Icon": "img/github.svg"
+  },
+  {
+    "Name": "LinkedIn",
+    "description": "Professional profile",
+    "URL": "https://www.linkedin.com/in/mdnoyun198",
+    "Icon": "img/linkedin.svg"
+  }
+]
