@@ -34,6 +34,7 @@ LinkTree/
 
 <p align="center">
   <img src="img/@Screenshot1.png" width="250" />
+  <br>
   <img src="img/@Screenshot2.png" width="250" />
 </p>
 
