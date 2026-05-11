@@ -3,13 +3,7 @@
 Welcome to my practice repository!  
 Here I learn and practice modern web development technologies.
 
-- HTML 
-- CSS / Tailwind 
-- JavaScript
-- NodeJS
-- ReactJS
-- NextJS
-- MongoDB
+
 
 <table  width="100%">
   <tr>
@@ -42,7 +36,14 @@ Here I learn and practice modern web development technologies.
     </td>
   </tr>
 </table>
----
+#
+- HTML 
+- CSS / Tailwind 
+- JavaScript
+- NodeJS
+- ReactJS
+- NextJS
+- MongoDB
 
 ## 📚 What I Do Here
 
