@@ -36,7 +36,7 @@ Here I learn and practice modern web development technologies.
     </td>
   </tr>
 </table>
-#
+
 - HTML 
 - CSS / Tailwind 
 - JavaScript
