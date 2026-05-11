@@ -1,12 +1,9 @@
-🧑‍💻My Web Development Practice Journey
+# My Web Development Practice Journey
 
 Welcome to my practice repository!  
 Here I learn and practice modern web development technologies.
 
 ---
-
-##  Technologies I’m Learning
-
 <table  width="100%">
   <tr>
     <td align="center" width="25%">
