@@ -59,5 +59,5 @@
 
 
 
-This is a practice repository Start in 2025 Practice basic to advanced concepts  Build small projects Improve problem-solving skills Learn real-world development
+This is a practice repository Start in @2025 Practice basic to advanced concepts  Build small projects Improve problem-solving skills Learn real-world development
 </div>
