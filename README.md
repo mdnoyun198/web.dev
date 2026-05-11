@@ -3,7 +3,7 @@
 Welcome to my practice repository!  
 Here I learn and practice modern web development technologies.
 
----
+
 <table  width="100%">
   <tr>
     <td align="center" width="25%">
