@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Password Validator</title>
+</head>
+
+<body>
+
+    <h2>Enter your password:</h2>
+    <input type="text" id="passwordInput" placeholder="Type password here">
+    <div id="errorMessages" style="color:red; margin-top:10px;"></div>
+    <div id="successMessage" style="color:green; margin-top:10px;"></div>
+
+    <script>
+        // Arrays
+        const upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M",
+            "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+        const lowerCase = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m",
+            "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+        const digits = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+        const symbols = ["@", "#", "৳", "$", "%", "&", "?", "!"];
+
+        // Count function
+        function countFrom(set, pw) {
+            return [...pw].filter(ch => set.includes(ch)).length;
+        }
+
+        // Validation function
+        function validatePassword(pw) {
+            const errors = [];
+
+            const upCount = countFrom(upperCase, pw);
+            const lowCount = countFrom(lowerCase, pw);
+            const digitCount = countFrom(digits, pw);
+            const symCount = countFrom(symbols, pw);
+
+            if (upCount < 2) errors.push("Kompotekke 2ta UPPERCASE (A-Z) lagbe.");
+            if (lowCount < 3) errors.push("Kompotekke 3ta lowercase (a-z) lagbe.");
+            if (digitCount < 2) errors.push("Kompotekke 2ta number (0-9) lagbe.");
+            if (symCount < 1) errors.push("Kompotekke 1ta symbol (@#৳$%&?!) lagbe.");
+
+            return errors;
+        }
+
+        // Input Event
+        const inputField = document.getElementById("passwordInput");
+        const errorDiv = document.getElementById("errorMessages");
+        const successDiv = document.getElementById("successMessage");
+
+        inputField.addEventListener("input", () => {
+            const pw = inputField.value;
+            const errors = validatePassword(pw);
+
+            if (errors.length === 0) {
+                errorDiv.innerHTML = "";
+                successDiv.innerHTML = "✅ Your password: " + pw;
+            } else {
+                successDiv.innerHTML = "";
+                errorDiv.innerHTML = errors.join("<br>");
+            }
+        });
+    </script>
+
+</body>
+
+</html>
