@@ -1,21 +1,6 @@
 # JavaScript Practice Notes
 
-এই প্রজেক্টটা `script.js`-এ রাখা JavaScript practice examples, ছোট ছোট notes, আর console-based experiments-এর summary। বেশিরভাগ code block comment করা আছে, তাই যেটা practice করতে চান সেটা uncomment করে browser console-এ run করা যাবে।
 
-## ফাইল স্ট্রাকচার
-- `index.html`: basic page structure, আর কিছু DOM practice element comment করা আছে
-- `style.css`: simple styling
-- `script.js`: topic-wise JavaScript practice code
-- `index.json`: fetch practice করার sample data file
-- `README.md`: `script.js`-এর updated explanation
-
-## কীভাবে ব্যবহার করবেন
-- `index.html` browser-এ open করুন
-- DevTools console খুলুন
-- `script.js` থেকে একটি section uncomment করে run করুন
-- DOM example run করতে চাইলে দরকারি HTML-ও `index.html` থেকে uncomment করুন
-
-## কভার করা টপিক
 
 ### ১) Hello World
 - `console.log()` দিয়ে basic output print করার example আছে
