@@ -1,4 +1,4 @@
-# My Web Development Practice Journey
+## My Web Development Practice Journey
 
 Welcome to my practice repository!  
 Here I learn and practice modern web development technologies.
