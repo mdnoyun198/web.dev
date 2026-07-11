@@ -114,7 +114,7 @@ globel.css
 }
 
 @custom-variant dark (&:where(.dark, .dark *));
-
+@custom-variant pd (@media (min-width: 1023px) and (max-width: 1040px));
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
