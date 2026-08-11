@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form id="form">
+
+        <input type="text" placeholder="Enter fristName" name="fristName">
+
+        <input type="text" placeholder="Enter LastName" name="LastName">
+
+        <input type="email" placeholder="Enter Your Email" name="Email">
+
+
+
+        <button type="submit">submit</button>
+
+
+    </form>
+
+
+
+
+
+
+
+</body>
+
+<script>
+
+
+    let form = document.getElementById('form')
+
+    form.addEventListener('submit', async (e) => {
+
+        e.preventDefault()
+
+        const formData = new FormData(form)
+
+       for (const [key, value] of formData) {
+        console.log(key, value);
+    }
+
+    })
+
+
+
+
+</script>
+
+</html>
