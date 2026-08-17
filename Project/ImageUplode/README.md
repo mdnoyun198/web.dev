@@ -86,5 +86,43 @@ FormData {
   postId: "66b1a23c..."
 }
 
+import { verifyAuth } from "@/lib/verifyAuth";
+import user from "@/models/auth/user";
+import { Uploade, Delete } from "@/lib/cnd/cloudinary";
+import { NextRequest, NextResponse } from "next/server";
+
+export async function POST(request: NextRequest) {
+
+    try {
+
+        const verification = await verifyAuth()
+
+        if (verification) {
+
+            const formData = await request.formData()
+
+            const image = formData.get('file')
+
+            const type = formData.get('type')
+
+            if (type === 'profile' && image instanceof File) {
+
+                const resUpload = await Uploade(image, 'profile')
+
+                const URL = resUpload.secure_url
+
+                await user.updateOne({ email: verification.user.email }, { $set: { image: URL } })
+
+            }
+
+        }
+
+
+    } catch (error) {
+        console.log(error)
+        return NextResponse.json({ message: 'upload falied' }, { status: 500 })
+    }
+    
+}
 ---
 
